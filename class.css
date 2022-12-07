@@ -1,0 +1,29 @@
+img{
+    width: 1000px;
+}body{
+    background-color: aqua;
+}
+<div class="sex">
+<fieldset>
+    <legend>Gender</legend>
+    <label class="container">Male
+        <input type="radio" name="checkbox" value="male"required>
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Female
+        <input type="radio" name="checkbox" value="femle"required>
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Non-Binary
+        <input type="radio" name="checkbox" value="non-binary"required>
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Other
+        <input type="radio" name="checkbox" value="other"required>
+        <span class="checkmark"></span>
+      </label>
+</fieldset>
+</div><br>

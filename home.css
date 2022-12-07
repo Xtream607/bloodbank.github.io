@@ -1,0 +1,182 @@
+body{
+    background: rgb(248, 8, 8);
+
+
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+    text-decoration: dotted;
+    margin-top: 70px;
+}
+.line{
+    border-bottom: 2px solid gray;
+}
+.container{
+   
+}
+.cover{
+    position: absolute;
+    text-align: center;
+    margin-top: 30px;
+    background: linear-gradient(120deg,rgb(137, 178, 185),white);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    border: 1px solid darkblue;
+    padding: 50px;
+    overflow: hidden;
+
+}
+a{
+    text-decoration: none;
+    color: brown;
+}
+a:hover{
+    text-decoration: none;
+    color: rgb(248, 243, 243);
+}
+.content{
+   
+    display: flex;
+}
+.content2{
+   
+    display: flex;
+}
+.content3{
+   
+    display: flex;
+}
+.register{
+    width: 200px;
+    height: 40%;
+    line-height:30px;
+    padding: 5px;
+    text-align: center;
+    background-color: aliceblue;
+    border:1px solid black;
+    margin:10px;
+    border-radius:10px;
+
+
+}
+.class{
+    width: 200px;
+    height: 40%;
+    line-height:30px;
+    padding: 5px;
+    text-align: center;
+    background-color: aliceblue;
+    border:1px solid black;
+    margin:10px;
+    border-radius:10px;
+
+}
+.doner_details{
+    width: 200px;
+    height: 40%;
+    line-height:30px;
+    padding: 5px;
+    text-align: center;
+    background-color: aliceblue;
+    border:1px solid black;
+    margin:10px;
+    border-radius:10px;
+
+}
+.camp{
+    width: 200px;
+    height: 40%;
+    line-height:30px;
+    padding: 5px;
+    text-align: center;
+    background-color: aliceblue;
+    border:1px solid black;
+    margin:10px;
+    border-radius:10px;
+
+
+}
+.report{
+    width: 200px;
+    height: 40%;
+    line-height:30px;
+    padding: 5px;
+    text-align: center;
+    background-color: aliceblue;
+    border:1px solid black;
+    margin:10px;
+    border-radius:10px;
+
+
+}
+.register:hover{
+    width: 200px;
+    height: 40%;
+    line-height:30px;
+    padding: 5px;
+    text-align: center;
+    background:linear-gradient(red,white);
+    border:1px solid black;
+    margin:10px;
+    border-radius:30px;
+
+
+}
+.class:hover{
+    width: 200px;
+    height: 40%;
+    line-height:30px;
+    padding: 5px;
+    text-align: center;
+    background:linear-gradient(red,white);
+    border:1px solid black;
+    margin:10px;
+    border-radius:30px;
+
+}
+.doner_details:hover{
+    width: 200px;
+    height: 40%;
+    line-height:30px;
+    padding: 5px;
+    text-align: center;
+    background:linear-gradient(red,white);
+    border:1px solid black;
+    margin:10px;
+    border-radius:30px;
+
+}
+.camp:hover{
+    width: 200px;
+    height: 40%;
+    line-height:30px;
+    padding: 5px;
+    text-align: center;
+    background:linear-gradient(red,white);
+    border:1px solid black;
+    margin:10px;
+    border-radius:30px;
+
+
+}
+.report:hover{
+    width: 200px;
+    height: 40%;
+    line-height:30px;
+    padding: 5px;
+    text-align: center;
+    background:linear-gradient(red,white);
+    border:1px solid black;
+    margin:10px;
+    border-radius:30px;
+
+
+}
+@media(max-width : 470px){
+    .cover{
+        width:70%;
+    }
+}
